@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navigation Bar</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+    <Style>
+        .navbar {
+            background-color: black;
+            border-radius: 10px;
+        }
+
+        .navbar ul {
+            overflow: auto;
+        }
+
+        .navbar li {
+            float: left;
+            list-style: none;
+            padding: 7px 9px;
+            margin: 5px 10px;
+        }
+
+        .navbar a {
+            text-decoration: none;
+            color: cornsilk;
+            cursor: pointer;
+        }
+
+        .search {
+            float: right;
+            margin: 5px 10px;
+            padding: 5px 60px;
+        }
+
+        .navbar input {
+            border: 2px solid black;
+            border-radius: 7px;
+            padding: 15px;
+        }
+
+        .navbar a:hover {
+            color: red;
+        }
+
+        .navbar a:visited {
+            color: rgb(231, 240, 154);
+        }
+    </Style>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <ul>
+                <li><a href="https://www.google.com" target="blank">Home</a></li>
+                <li><a href="https://www.facebook.com" target="blank">Service</a></li>
+                <li><a href="https://www.yahoo.com" target="blank">About</a></li>
+                <li><a href="https://www.microsoft.com" target="blank">Contact Us</a></li>
+                <div class="search">
+                    <input type="text" name="search" id="search" placeholder="Search">
+                </div>
+            </ul>
+        </nav>
+    </header>
+</body>
+</html>
