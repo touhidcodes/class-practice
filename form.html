@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form</title>
+  </head>
+  <body>
+    <div>
+      <h1>Register Form</h1>
+    </div>
+    <form action="backend.php">
+      <div>User Name: <input type="text" name="username" /></div>
+      <br />
+      <div>Email: <input type="email" name="email" /></div>
+      <br />
+      <div>
+        Password: <input type="Text" name="password" required="required" />
+      </div>
+      <br />
+      <div>
+        Re-Password: <input type="Text" name="password" required="required" />
+      </div>
+      <br />
+      <div>Date of Birth: <input type="date" name="mydate" /></div>
+      <br />
+      <div>
+        Gender: Male
+        <input type="radio" name="gender" value="male" checked="checked" />
+        Female <input type="radio" name="gender" value="female" /> Others
+        <input type="radio" name="gender" value="others" />
+      </div>
+      <br />
+      <div>
+        Religion:
+        <select name="religion">
+          <option value="Islam" selected="selected">Islam</option>
+          <option value="Hindu">Hindu</option>
+          <option value="Christan">Christsn</option>
+          <option value="Buddha">Buddha</option>
+        </select>
+      </div>
+      <br />
+      <div>Are you a human? <input type="checkbox" name="checkbox" /></div>
+      <br />
+      <div>
+        <p>Upload your image:</p>
+        <input type="file" name="image" value="image" />
+        <input type="submit" value="upload" />
+      </div>
+      <br />
+      <div>
+        Write about yourself:
+        <textarea name="comments" cols="50" rows="5">
+Write your comments....</textarea
+        >
+      </div>
+      <br />
+      <div>
+        <input type="submit" name="submit" />
+        <input type="reset" name="reset" />
+      </div>
+    </form>
+  </body>
+</html>
