@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>transform</title>
+    <style>
+      .box {
+        height: 300px;
+      }
+
+      .box-all {
+        height: 100px;
+        width: 100px;
+        border: 2px solid gray;
+        text-align: center;
+        position: absolute;
+      }
+
+      #tfm1 {
+        background-color: blueviolet;
+      }
+      #tfm2 {
+        background-color: coral;
+        transform: scale(0.7);
+      }
+      #tfm3 {
+        background-color: blueviolet;
+      }
+      #tfm4 {
+        background-color: coral;
+        transform: rotate(45deg);
+      }
+      #tfm5 {
+        background-color: blueviolet;
+      }
+      #tfm6 {
+        background-color: coral;
+        transform: skew(30deg);
+      }
+      #tfm7 {
+        background-color: blueviolet;
+      }
+      #tfm8 {
+        background-color: coral;
+        transform: skew(10deg);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="box">
+      <h1 class="line">Transform</h1>
+
+      <p class="box-all" id="tfm1">Transform 1</p>
+      <p class="box-all" id="tfm2">Transform 2</p>
+    </div>
+    <div class="box">
+      <p class="box-all" id="tfm3">Transform 3</p>
+      <p class="box-all" id="tfm4">Transform 4</p>
+    </div>
+    <div class="box">
+      <p class="box-all" id="tfm5">Transform 5</p>
+      <p class="box-all" id="tfm6">Transform 6</p>
+    </div>
+    <div class="box">
+      <p class="box-all" id="tfm7">Transform 7</p>
+      <p class="box-all" id="tfm8">Transform 8</p>
+    </div>
+  </body>
+</html>
